@@ -56,29 +56,7 @@ Pré-requisitos:
 
 Python 3.10+
 
-Git
-
-6.1. Clonar o repositório
-git clone [https://github.com/seu-usuario/pbl-mlops-hands-on-lab.git](https://github.com/seu-usuario/pbl-mlops-hands-on-lab.git)
-
-cd pbl-mlops-hands-on-lab
-
-6.2. Criar e ativar o ambiente virtual
-python -m venv .venv
-
-source .venv/bin/activate # Linux/macOS # .venv\Scripts\activate  # Windows
-
-6.3. Instalar dependências
-
-pip install -r requirements.txt
-
-6.4. Executar a esteira de treino e MLOps
-
-python src/train.py
-
-6.5. Abrir o Dashboard do MLflow
-
-mlflow ui
+Google Colaboraty
 
 # 💡 7. Principais Aprendizados
 
@@ -88,6 +66,8 @@ A inclusão de um Quality Gate na esteira impede que artefatos com desempenho in
 
 A governança garante reprodutibilidade total em auditorias futuras.
 
+Alerta de Detecção de Degradação de Performance para disparar a notificação automaticamente caso o drift seja verdadeiro.
+
 # 👤 8. Autoria e Créditos
 
 Este laboratório prático (PBL) foi idealizado e construído por mim, **Janaína Nascimento Feitoza**,
@@ -95,6 +75,6 @@ a partir dos fundamentos e práticas apresentados durante o **Workshop Online de
 promovido pelo **INDT (Instituto de Desenvolvimento Tecnológico)**,
 adaptando a teoria para uma estrutura governada de aprendizado por projetos.
 
-- **LinkedIn:** [https://www.linkedin.com/in/jana%C3%ADna-nascimento-feitoza-27559920a]
+- **LinkedIn:** [https://www.linkedin.com/in/janainanascimentofeitoza]
 
 - **GitHub:** [https://github.com/jana-nf]
