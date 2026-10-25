@@ -66,7 +66,7 @@ A inclusão de um Quality Gate na esteira impede que artefatos com desempenho in
 
 A governança garante reprodutibilidade total em auditorias futuras.
 
-Alerta de Detecção de Degradação de Performance para disparar a notificação automaticamente caso o drift seja verdadeiro.
+Alerta de Detecção de Degradação de Performance com notificação automaticamente para o chatbot do Telegram, caso o drift seja verdadeiro.
 
 # 👤 8. Autoria e Créditos
 
